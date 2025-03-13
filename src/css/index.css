@@ -1,0 +1,173 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: gray;
+  }
+  .App{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border: 0.2rem solid;
+  }
+  
+  .header{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: #e6c7a1;
+    background-image: linear-gradient(to right, #5b4538 , #c6b4b4);
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .container{
+    display: flex;
+    flex-direction: width;
+    height: auto;
+    width: auto;
+    background-color: #c19a6b;
+  }
+  
+  .leftside{
+    width: 25%;
+    background-color: #c19a6b;
+  }
+  .middle{
+    width: 50%;
+    background-color: #c19a6b;
+  }
+  .rightside{
+    position: relative;
+    width: 25%;
+    background: linear-gradient(
+      180deg,
+      #b38b6d 30%,
+      #c19a6b 50%,
+      #e6c7a1 100%
+    );
+    border-left: #c6b4b4 solid 5px;
+    border-bottom: #c6b4b4 solid 5px;
+    display: grid;
+    grid-template-columns:auto;
+    justify-content: center;
+    text-align: left;
+    font-size: 1rem;
+  }
+  img{
+    width: 100%;
+  }
+  .priceList{
+  display: grid;
+  grid-template-columns:auto auto;
+  color: white;
+  font-weight: bolder;
+  justify-content: center;
+  }
+  
+  .priceItem {
+    padding: 1vw 1vw 1vw 1vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    width: 5vw;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: linear-gradient(
+      90deg,
+      #7f7266 10%,
+      #a28474 20%,
+      #9e7059 30%,
+      #a28474 50%,
+      #9e7059 60%,
+      #a28474 75%,
+      #7f7266 95%
+    );
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .prBtn:hover{
+    border: 3px solid red;
+  
+  }
+  .numList{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  
+  
+  .numItem{
+    background-color: #5b4538;
+    color:#5b4538 ;
+    margin: 0.2vw;
+    padding: 10px;
+    cursor: pointer;
+    width: 50px; 
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: 3px solid #5b4538;
+    cursor: pointer;
+  }
+  .buttonOn{
+    font-weight: bold;
+    color: #e6c7a1;
+    font-size: 1rem;
+    border: 3px solid red;
+    
+  }
+  .buttonOff{
+    background-color: black;
+    font-weight: bold;
+    color: #e6c7a1;
+    font-size: 1rem;
+    border: 2px solid gray;
+  }
+  
+  .btnItem{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center; 
+  }
+  
+  .RANDOM, .CLEAR{
+    padding: 1vw;
+    margin: 2vw;
+    background-color: #e6c7a1;
+    color: black;
+    font-weight: bold;
+  }
+  .CASH{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    padding: 1vw;
+    margin-top: 0;
+    margin-right: 0;
+    margin-right: 1vw;
+    background-color: #e6c7a1;
+    color: black;
+    font-weight: bold;
+  }
+  .middle{
+    background-color: #5b4538;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+  }
